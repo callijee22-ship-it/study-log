@@ -34,12 +34,33 @@
 
 ---
 
+# 📊 Current Study Log
+
+현재 기록된 학습 분야와 문서는 다음과 같습니다.
+
+```text
+AWS      7 records
+SQL      4 records
+Python   8 records
+Web      2 records
+Git      1 record
+Java     2 records
+──────────────────
+Total   24 records
+```
+
+---
+
 # 🗂️ Study Room
 
 | 공부방 | 내용 | 바로가기 |
 | :---: | --- | :---: |
-| ☁️ **AWS** | AWS 개념 · 서비스 비교 · 문제풀이 · 오답정리 | [들어가기 →](./AWS) |
-| 🗄️ **SQL** | SQL 기초 · Query · Table · 오류 해결 기록 | [들어가기 →](./SQL) |
+| ☁️ **AWS** | AWS 서비스 · 문제풀이 · 서비스 비교 · 오답정리 | [들어가기 →](./AWS) |
+| 🗄️ **SQL** | SQL 기초 · Query · Table · Foreign Key · 오류 해결 | [들어가기 →](./SQL) |
+| 🐍 **Python** | 기초 문법 · 함수 · 클래스 · 크롤링 · 코드 풀이 | [들어가기 →](./Python) |
+| 🌐 **Web** | HTML · CSS · JavaScript · 키오스크 · 계산기 실습 | [들어가기 →](./Web) |
+| 🌳 **Git** | Git / GitHub · add · commit · push · merge | [들어가기 →](./Git) |
+| ☕ **Java** | 코드 실행 흐름 · for문 · 매개변수 · 지역변수 | [들어가기 →](./Java) |
 
 공부하는 분야가 늘어나면  
 방도 하나씩 추가할 예정입니다. 🌱
@@ -50,6 +71,9 @@
 
 AWS는 서비스 이름을 무작정 외우기보다  
 **“어떤 상황에서 어떤 서비스를 쓰는가?”**를 중심으로 공부하고 있습니다.
+
+문제를 먼저 직접 풀어보고  
+틀리거나 헷갈린 부분을 다시 개념으로 돌아가 확인하는 방식으로 기록합니다.
 
 ### 📖 기록
 
@@ -87,15 +111,10 @@ AWS는 서비스 이름을 무작정 외우기보다
 # 🗄️ SQL Study
 
 SQL은 온라인 강의를 따라가며  
-매일 기초 개념과 실습을 공부했습니다.
+기초 개념과 실습을 공부했습니다.
 
 이 저장소에는 강의 내용을 그대로 옮기기보다  
-**직접 실습하면서 막혔던 부분, 오류를 해결한 과정,  
-다시 이해한 내용을 제 방식대로 정리해서 기록하고 있습니다.**
-
-2026년 8월부터는  
-MySQL Workbench에서 직접 Query를 실행하면서  
-실습 중 만난 오류와 해결 과정을 본격적으로 남기기 시작했습니다.
+**직접 Workbench에서 실행하면서 막혔던 부분과 오류 해결 과정**을 중심으로 기록했습니다.
 
 ```text
 인강으로 개념 공부
@@ -119,8 +138,10 @@ MySQL Workbench에서 직접 Query를 실행하면서
 
 | 날짜 | 오늘의 공부 |
 | :---: | --- |
-| [08.14](./SQL/2026-08-14.md) | SQL 실습 기록 시작 · SELECT · Table · Foreign Key · INSERT |
-| [08.17](./SQL/2026-08-17.md) | WHERE · OR · IN · 그리고 `갤럭시` 실종 사건 |
+| [08.14](./SQL/2026-08-14.md) | Workbench 실습 · SELECT · Table · Foreign Key |
+| [08.15](./SQL/2026-08-15.md) | INSERT · Auto Increment · 부모/자식 Table 관계 |
+| [08.16](./SQL/2026-08-16.md) | Table 초기화 · Foreign Key 오류 · Database 선택 |
+| [08.17](./SQL/2026-08-17.md) | WHERE · OR · IN · 오타 디버깅 |
 
 ### 😂 SQL 실습 초반의 기억
 
@@ -146,6 +167,181 @@ No database selected
 
 > SQL에서 결과가 이상하면  
 > 어려운 문법을 의심하기 전에 **오타부터 확인하자.**
+
+---
+
+# 🐍 Python Study
+
+Python은 국비 교육 시작 전 기초 문법을 예습했고,  
+교육 시작 이후에는 크롤링과 데이터 수집 실습까지 이어졌습니다.
+
+처음에는 리스트 슬라이싱부터 시작했는데  
+어느 순간 클래스와 상속을 지나 RSS와 Selenium까지 와 있었습니다. 😂
+
+### 📖 기록
+
+| 날짜 | 오늘의 공부 |
+| :---: | --- |
+| [08.18](./Python/2026-08-18.md) | 리스트 · 슬라이싱 · index · reverse |
+| [08.20](./Python/2026-08-20.md) | Tuple · Dictionary · Set |
+| [08.21](./Python/2026-08-21.md) | if · while · 함수 · return |
+| [08.24](./Python/2026-08-24.md) | 함수 · lambda · Class · Instance · self · `__init__` |
+| [08.25](./Python/2026-08-25.md) | 상속 · `super()` · Override |
+| [09.08](./Python/2026-09-08.md) | requests · BeautifulSoup · RSS · pandas · CSV · Counter |
+| [09.10](./Python/2026-09-10.md) | 크롤링 실습 서버 · Selenium 실습 환경 · range |
+| [09.20](./Python/2026-09-20.md) | 반복문 · 누적합 · 카운터 · break 코드 풀이 |
+
+### 🌱 Python 학습 흐름
+
+```text
+List / Tuple / Dictionary
+        ↓
+조건문 / 반복문
+        ↓
+함수
+        ↓
+Class / Instance
+        ↓
+상속
+        ↓
+웹 데이터 수집
+        ↓
+RSS / CSV
+```
+
+9월 20일 기록은 프로그램 기능사 시험 전  
+Python 코드 실행 순서를 급하게 복습했던 기록입니다.
+
+자격증 결과 자체보다는  
+그날 다시 확인했던 코드 흐름을 공부 기록으로 남겼습니다.
+
+---
+
+# 🌐 Web Study
+
+국비 교육 이후 HTML, CSS, JavaScript를 함께 사용하는  
+웹페이지 실습을 시작했습니다.
+
+처음에는 한 파일 안에 HTML / CSS / JavaScript가 모두 들어 있는 것을 보고
+
+> HTML은 어디고 CSS는 어디고 JavaScript는 또 어디야...?
+
+상태였습니다. 😂
+
+### 📖 기록
+
+| 날짜 | 오늘의 공부 |
+| :---: | --- |
+| [09.05](./Web/2026-09-05.md) | 스타벅스 키오스크 · HTML/CSS/JS 역할 · DOM 기초 |
+| [09.07](./Web/2026-09-07.md) | 키오스크 복습 · JavaScript 계산기 · Event · Array |
+
+### 🧠 가장 먼저 잡은 개념
+
+```text
+HTML
+→ 화면에 무엇을 만들 것인가
+
+CSS
+→ 화면을 어떻게 꾸밀 것인가
+
+JavaScript
+→ 클릭하거나 값을 바꿨을 때 어떻게 동작할 것인가
+```
+
+웹 실습에서 배운 내용은 이후  
+실제 프로젝트 Frontend 작업으로 이어졌습니다.
+
+---
+
+# 🌳 Git Study
+
+처음 시작은 정말 단순했습니다.
+
+> **“Git이 도대체 뭐야?”**
+
+Git과 GitHub의 차이부터 시작해서  
+직접 저장소를 이동하고 상태를 확인하고  
+commit과 merge 기록을 보면서 기본 흐름을 익혔습니다.
+
+### 📖 기록
+
+| 날짜 | 오늘의 공부 |
+| :---: | --- |
+| [08.25](./Git/2026-08-25.md) | Git / GitHub · add · commit · push · pull · merge |
+
+### 🌱 내가 이해한 Git 흐름
+
+```text
+파일 수정
+   ↓
+git add
+   ↓
+git commit
+   ↓
+git push
+```
+
+그리고 문제가 생기면:
+
+```text
+git status
+git log
+```
+
+부터 확인하기.
+
+---
+
+# ☕ Java Study
+
+Java는 코드를 직접 한 줄씩 따라가면서  
+**“이 값이 왜 여기서 생기는가?”**를 중심으로 공부했습니다.
+
+### 📖 기록
+
+| 날짜 | 오늘의 공부 |
+| :---: | --- |
+| [09.12](./Java/2026-09-12.md) | for문 실행 흐름 · 빈 반복문 · 출력값 추적 |
+| [09.13](./Java/2026-09-13.md) | 매개변수 · 지역변수 · 함수 호출 값 전달 |
+
+### 🧠 다시 확인한 것
+
+```text
+func(5)
+→ 함수에 5 전달
+
+int i
+→ 전달된 값을 받는 매개변수
+
+int x = 5
+→ 함수 안에서 직접 만든 지역변수
+```
+
+코드를 외우기보다  
+값이 어디에서 들어오고 어떻게 변하는지를 직접 따라가는 방식으로 기록했습니다.
+
+---
+
+# 🚀 From Study to Project
+
+공부한 내용을 노트로만 남기는 것이 아니라  
+실제 프로젝트에서도 하나씩 사용해보고 있습니다.
+
+특히 Web / Git을 공부한 뒤에는  
+팀 프로젝트 **우심운까**에서 Frontend와 PAGE1 작업을 진행했습니다.
+
+➡️ [우심운까 Frontend Contribution Archive](https://github.com/callijee22-ship-it/usimunkka)
+
+프로젝트 코드는 프로젝트 저장소에,  
+개념을 다시 공부하고 이해한 내용은 이 Study Log에 나누어 기록합니다.
+
+```text
+Study Log
+→ 개념 이해 / 오류 / 복습
+
+Project Repository
+→ 실제 구현 / 수정 / 개발 과정
+```
 
 ---
 
