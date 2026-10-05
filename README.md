@@ -39,14 +39,15 @@
 현재 기록된 학습 분야와 문서는 다음과 같습니다.
 
 ```text
-AWS      7 records
-SQL      4 records
-Python   9 records
-Web      2 records
-Git      1 record
-Java     2 records
-──────────────────
-Total   25 records
+AWS         11 records
+SQL          4 records
+Python      10 records
+Web          2 records
+Git          1 record
+Java         2 records
+Exam Review  2 records
+─────────────────────
+Total       32 records
 ```
 
 ---
@@ -61,6 +62,7 @@ Total   25 records
 | 🌐 **Web** | HTML · CSS · JavaScript · 키오스크 · 계산기 실습 | [들어가기 →](./Web) |
 | 🌳 **Git** | Git / GitHub · add · commit · push · merge | [들어가기 →](./Git) |
 | ☕ **Java** | 코드 실행 흐름 · for문 · 매개변수 · 지역변수 | [들어가기 →](./Java) |
+| 📝 **Exam Review** | 시험 전후 복습 · 실제 오답 · 헷갈린 개념 · 재학습 기록 | [들어가기 →](./Exam-Review) |
 
 공부하는 분야가 늘어나면  
 방도 하나씩 추가할 예정입니다. 🌱
@@ -75,6 +77,9 @@ AWS는 서비스 이름을 무작정 외우기보다
 문제를 먼저 직접 풀어보고  
 틀리거나 헷갈린 부분을 다시 개념으로 돌아가 확인하는 방식으로 기록합니다.
 
+최근에는 **정답을 맞혔는지보다 실제로 개념을 설명할 수 있는지**를 더 중요하게 보고 있습니다.
+맞혔더라도 확신이 없었던 문제는 이해 완료로 처리하지 않습니다.
+
 ### 📖 기록
 
 | 날짜 | 오늘의 공부 |
@@ -86,6 +91,10 @@ AWS는 서비스 이름을 무작정 외우기보다
 | [09.27](./AWS/2026-09-27.md) | Lambda · Glue · EMR 비교 |
 | [09.28](./AWS/2026-09-28.md) | S3 Storage Class 집중 복습 |
 | [09.29](./AWS/2026-09-29.md) | Athena · Spectrum · Glue · EMR · Parquet · Partitioning |
+| [09.30](./AWS/2026-09-30.md) | SNS · EventBridge · Step Functions · DMS · SCT |
+| [10.01](./AWS/2026-10-01.md) | DMS · DataSync · Snowball Edge · DataBrew · Lake Formation · Crawler |
+| [10.02](./AWS/2026-10-02.md) | S3 관리 기능 · CloudWatch · CloudTrail · Config · IAM · 보안 서비스 |
+| [10.05](./AWS/2026-10-05.md) | IAM 재복습 · Lambda · S3 · DMS/DataSync · Glue/EMR |
 
 ### 🧠 요즘 AWS 공부 방식
 
@@ -191,6 +200,7 @@ Python은 국비 교육 시작 전 기초 문법을 예습했고,
 | [09.10](./Python/2026-09-10.md) | 크롤링 실습 서버 · Selenium 실습 환경 · range |
 | [09.20](./Python/2026-09-20.md) | 반복문 · 누적합 · 카운터 · break 코드 풀이 |
 | [10.02](./Python/2026-10-02.md) | JSON · 중첩 데이터 · CSV 실습 (h00~h05, 복습 중) |
+| [10.05](./Python/2026-10-05.md) | Dictionary · JSON 문자열/파일 · 중첩 JSON · CSV 저장/읽기 연습 |
 
 ### 🌱 Python 학습 흐름
 
@@ -208,6 +218,8 @@ Class / Instance
 웹 데이터 수집
         ↓
 RSS / CSV
+        ↓
+JSON / 중첩 데이터 / 표 변환
 ```
 
 9월 20일 기록은 프로그램 기능사 시험 전  
@@ -320,6 +332,50 @@ int x = 5
 
 코드를 외우기보다  
 값이 어디에서 들어오고 어떻게 변하는지를 직접 따라가는 방식으로 기록했습니다.
+
+---
+
+# 📝 Exam Review
+
+시험 대비 과정에서는 정답만 모으지 않고  
+**틀린 문제, 맞혔지만 확신이 없었던 문제, 끝까지 이해되지 않은 개념**을 따로 기록합니다.
+
+### 📖 기록
+
+| 날짜 | 오늘의 공부 |
+| :---: | --- |
+| [09.30](./Exam-Review/2026-09-30.md) | Java · Python · OS · Linux · DB/SQL 문제 유형 복습 |
+| [10.01](./Exam-Review/2026-10-01.md) | 시험 당일 복습 · 실제 오답 · 시험 후 개념 재정리 |
+
+### 🧠 기록 기준
+
+```text
+정답을 맞힘
+≠ 완전히 이해함
+
+틀린 문제
+→ 왜 틀렸는지 남기기
+
+맞혔지만 확신 없음
+→ 반복 필요로 남기기
+
+잘못 누른 답
+→ 개념 오답으로 처리하지 않기
+
+끝까지 헷갈림
+→ 억지로 이해 완료 처리하지 않기
+```
+
+특히 최근에는:
+
+```text
+Java == vs .equals()
+ACID
+Integrity(무결성)
+Paging vs Segmentation
+```
+
+처럼 실제로 흔들렸던 개념을 다시 확인하고 있습니다.
 
 ---
 
