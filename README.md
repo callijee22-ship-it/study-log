@@ -41,12 +41,12 @@
 ```text
 AWS      7 records
 SQL      4 records
-Python   8 records
+Python   9 records
 Web      2 records
 Git      1 record
 Java     2 records
 ──────────────────
-Total   24 records
+Total   25 records
 ```
 
 ---
@@ -190,6 +190,7 @@ Python은 국비 교육 시작 전 기초 문법을 예습했고,
 | [09.08](./Python/2026-09-08.md) | requests · BeautifulSoup · RSS · pandas · CSV · Counter |
 | [09.10](./Python/2026-09-10.md) | 크롤링 실습 서버 · Selenium 실습 환경 · range |
 | [09.20](./Python/2026-09-20.md) | 반복문 · 누적합 · 카운터 · break 코드 풀이 |
+| [10.02](./Python/2026-10-02.md) | JSON · 중첩 데이터 · CSV 실습 (h00~h05, 복습 중) |
 
 ### 🌱 Python 학습 흐름
 
