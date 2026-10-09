@@ -39,7 +39,7 @@
 현재 기록된 학습 분야와 문서는 다음과 같습니다.
 
 ```text
-AWS         13 records
+AWS         15 records
 SQL          4 records
 Python      11 records
 Class        3 records
@@ -48,7 +48,7 @@ Git          1 record
 Java         2 records
 Exam Review  2 records
 ─────────────────────
-Total       38 records
+Total       40 records
 ```
 
 ---
@@ -99,6 +99,8 @@ AWS는 서비스 이름을 무작정 외우기보다
 | [10.05](./AWS/2026-10-05.md) | IAM 재복습 · Lambda · S3 · DMS/DataSync · Glue/EMR |
 | [10.06](./AWS/2026-10-06.md) | Kinesis · Enhanced Fan-Out · Retention Period · Glue/Spark · Athena |
 | [10.07](./AWS/2026-10-07.md) | Redshift · Lake Formation · 보안 서비스 · DMS/SCT · Workflow · Iceberg |
+| [10.08](./AWS/2026-10-08.md) | Flink · DynamoDB · Glue Bookmark · VPC Endpoint · Storage Lens · Redshift 관리 기능 |
+| [10.09](./AWS/2026-10-09.md) | S3 Tables · Compaction · Athena Partition Projection · Redshift Materialized View |
 
 ### 🧠 요즘 AWS 공부 방식
 
