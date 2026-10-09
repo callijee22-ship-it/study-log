@@ -39,15 +39,16 @@
 현재 기록된 학습 분야와 문서는 다음과 같습니다.
 
 ```text
-AWS         11 records
+AWS         13 records
 SQL          4 records
-Python      10 records
+Python      11 records
+Class        3 records
 Web          2 records
 Git          1 record
 Java         2 records
 Exam Review  2 records
 ─────────────────────
-Total       32 records
+Total       38 records
 ```
 
 ---
@@ -58,7 +59,8 @@ Total       32 records
 | :---: | --- | :---: |
 | ☁️ **AWS** | AWS 서비스 · 문제풀이 · 서비스 비교 · 오답정리 | [들어가기 →](./AWS) |
 | 🗄️ **SQL** | SQL 기초 · Query · Table · Foreign Key · 오류 해결 | [들어가기 →](./SQL) |
-| 🐍 **Python** | 기초 문법 · 함수 · 클래스 · 크롤링 · 코드 풀이 | [들어가기 →](./Python) |
+| 🐍 **Python** | 기초 문법 · 함수 · 클래스 · 크롤링 · 데이터 처리 · 코드 풀이 | [들어가기 →](./Python) |
+| 🏫 **Class** | 수업 복습 · 데이터 처리 · 표준화 · Mermaid · SQL 실습 | [들어가기 →](./Class) |
 | 🌐 **Web** | HTML · CSS · JavaScript · 키오스크 · 계산기 실습 | [들어가기 →](./Web) |
 | 🌳 **Git** | Git / GitHub · add · commit · push · merge | [들어가기 →](./Git) |
 | ☕ **Java** | 코드 실행 흐름 · for문 · 매개변수 · 지역변수 | [들어가기 →](./Java) |
@@ -95,6 +97,8 @@ AWS는 서비스 이름을 무작정 외우기보다
 | [10.01](./AWS/2026-10-01.md) | DMS · DataSync · Snowball Edge · DataBrew · Lake Formation · Crawler |
 | [10.02](./AWS/2026-10-02.md) | S3 관리 기능 · CloudWatch · CloudTrail · Config · IAM · 보안 서비스 |
 | [10.05](./AWS/2026-10-05.md) | IAM 재복습 · Lambda · S3 · DMS/DataSync · Glue/EMR |
+| [10.06](./AWS/2026-10-06.md) | Kinesis · Enhanced Fan-Out · Retention Period · Glue/Spark · Athena |
+| [10.07](./AWS/2026-10-07.md) | Redshift · Lake Formation · 보안 서비스 · DMS/SCT · Workflow · Iceberg |
 
 ### 🧠 요즘 AWS 공부 방식
 
@@ -201,6 +205,7 @@ Python은 국비 교육 시작 전 기초 문법을 예습했고,
 | [09.20](./Python/2026-09-20.md) | 반복문 · 누적합 · 카운터 · break 코드 풀이 |
 | [10.02](./Python/2026-10-02.md) | JSON · 중첩 데이터 · CSV 실습 (h00~h05, 복습 중) |
 | [10.05](./Python/2026-10-05.md) | Dictionary · JSON 문자열/파일 · 중첩 JSON · CSV 저장/읽기 연습 |
+| [10.06](./Python/2026-10-06.md) | pandas · DataFrame · Boolean Mask · 결측치 · 중복 제거 · merge · groupby · 집계 |
 
 ### 🌱 Python 학습 흐름
 
@@ -220,6 +225,8 @@ Class / Instance
 RSS / CSV
         ↓
 JSON / 중첩 데이터 / 표 변환
+        ↓
+pandas / DataFrame / 데이터 정리
 ```
 
 9월 20일 기록은 프로그램 기능사 시험 전  
@@ -227,6 +234,46 @@ Python 코드 실행 순서를 급하게 복습했던 기록입니다.
 
 자격증 결과 자체보다는  
 그날 다시 확인했던 코드 흐름을 공부 기록으로 남겼습니다.
+
+---
+
+
+# 🏫 Class Study
+
+수업 시간에 다룬 내용을 날짜별로 다시 정리한 기록입니다.
+
+단순히 수업 내용을 옮기는 것이 아니라  
+**그날 실제로 따라 해 본 코드, 헷갈렸던 부분, 다시 확인해야 할 개념**을 중심으로 남깁니다.
+
+특히 아직 완전히 이해하지 못한 내용은  
+억지로 “이해 완료”로 적지 않고 복습이 필요한 상태 그대로 기록합니다.
+
+### 📖 기록
+
+| 날짜 | 수업 내용 |
+| :---: | --- |
+| [10.06](./Class/2026-10-06.md) | pandas 데이터 처리 · 조건 필터링 · 결측치/중복 · merge/groupby 실습 |
+| [10.07](./Class/2026-10-07.md) | 데이터 표준화 · AS-IS/TO-BE · Grain · Mermaid · 데이터 모델링 |
+| [10.08](./Class/2026-10-08.md) | SQL · CREATE/INSERT/SELECT · WHERE · ORDER BY · UPDATE · NULL/날짜 조건 |
+
+각 문서에는 수업 내용을 다시 볼 수 있도록  
+**실제 실습 화면 이미지도 함께 연결**해 두었습니다.
+
+### 🧠 수업 기록 기준
+
+```text
+수업에서 봄
+≠ 이해 완료
+
+직접 따라 해봄
+→ 다시 설명할 수 있는지 확인
+
+헷갈림 / 오류 발생
+→ 그대로 기록
+
+다시 봐도 모를 것 같음
+→ 개념 설명과 복습 포인트 추가
+```
 
 ---
 
