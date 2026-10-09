@@ -53,6 +53,24 @@ Total       40 records
 
 ---
 
+# 🆕 Recent Updates
+
+최근 추가된 기록은 다음과 같습니다.
+
+| 날짜 | 분야 | 내용 |
+| :---: | :---: | --- |
+| [10.09](./AWS/2026-10-09.md) | ☁️ AWS | S3 Tables · Compaction · Athena Partition Projection · Redshift Materialized View |
+| [10.08](./AWS/2026-10-08.md) | ☁️ AWS | Flink · DynamoDB · Glue Job Bookmark · VPC Endpoint · Storage Lens · Redshift 관리 기능 |
+| [10.08](./Class/2026-10-08.md) | 🏫 Class | SQL · CREATE/INSERT/SELECT · WHERE · UPDATE · NULL/날짜 조건 |
+| [10.07](./Class/2026-10-07.md) | 🏫 Class | 데이터 표준화 · AS-IS/TO-BE · Grain · Mermaid · 데이터 모델링 |
+| [10.06](./Class/2026-10-06.md) | 🏫 Class | pandas 데이터 처리 · 필터링 · 결측치/중복 · merge/groupby |
+| [10.06](./Python/2026-10-06.md) | 🐍 Python | pandas · DataFrame · Boolean Mask · merge · groupby · 데이터 정리 |
+
+> 최근 수업 기록은 **수업 내용을 다 이해했다는 의미가 아니라**,  
+> 실제로 따라 해 본 내용과 헷갈린 부분을 다시 공부할 수 있도록 정리한 복습 자료입니다.
+
+---
+
 # 🗂️ Study Room
 
 | 공부방 | 내용 | 바로가기 |
